@@ -13,6 +13,7 @@ for (let key in citiesAndCountries) {
 }
 
 // Задание 2 
+//если не делится на 3 , выводим через prompt, если нет то введи число которое делится на 3
 function getArray(){
     const amount = 12;
     let count = 3;
@@ -50,3 +51,6 @@ let mass = [12, 898,5, 899, 900];
         function sum(array) {
             return array.sort((a,b) => a-b).slice(0,2).reduce((a,b)=> a+b)
         }
+
+
+
